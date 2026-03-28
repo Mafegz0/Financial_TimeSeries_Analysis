@@ -3,21 +3,21 @@ Live Demo
 https://mafegz0.github.io/Financial_TimeSeries_Analysis/
 [![View Project](https://img.shields.io/badge/View-Project-blue)](https://mafegz0.github.io/Financial_TimeSeries_Analysis/)
 
-## Descripción
+## Description
 
-Este proyecto implementa un análisis de series de tiempo financieras utilizando R y datos históricos obtenidos desde Yahoo Finance. Se analizan precios ajustados y volúmenes de negociación de IBM, Oracle, Intel y Microsoft.
+This project implements a financial time series analysis using R and historical data obtained from Yahoo Finance. Adjusted prices and trading volumes for IBM, Oracle, Intel, and Microsoft are analyzed.
 
-El análisis incluye:
+The analysis includes:
 
-* Descarga de datos financieros
-* Series de tiempo interactivas
-* Panel de datos financieros
-* Histogramas por año
-* Análisis de distribución de precios
+* Financial data extraction
+* Interactive time series visualization
+* Financial data dashboards
+* Yearly histograms
+* Price distribution analysis
 
 ---
 
-## Activos Analizados
+## Assets Analyzed
 
 * IBM (IBM)
 * Oracle (ORCL)
@@ -26,13 +26,13 @@ El análisis incluye:
 
 ---
 
-## Periodo Analizado
+## Analyzed Period
 
 2015 — 2020
 
 ---
 
-## Librerías Utilizadas
+## Libraries Used
 
 * quantmod
 * xts
@@ -43,7 +43,7 @@ El análisis incluye:
 
 ---
 
-## Estructura del Proyecto
+## Project Structure
 
 ```
 Financial-TimeSeries-Analysis-R
@@ -59,24 +59,23 @@ Financial-TimeSeries-Analysis-R
 
 ---
 
-## Visualizaciones Interactivas
+## Interactive Visualizations
 
-### Precios Ajustados
+### Adjusted Prices
 
-Archivo:
+File:
 
 ```
 Precios_ajustados.html
 ```
+This visualization includes:
 
-Contiene:
+* Interactive time series
+* Dynamic zoom
+* Asset comparison
+* Date range selector
 
-* Serie de tiempo interactiva
-* Zoom dinámico
-* Comparación entre activos
-* Selector de fechas
-
-Activos incluidos:
+Assets included:
 
 * IBM
 * Oracle
@@ -85,35 +84,46 @@ Activos incluidos:
 
 ---
 
-### Panel Volumen y Precios
+### Volume and Price Dashboard
 
-Archivo:
+File:
 
 ```
 Volumen_Precios.html
 ```
 
-Incluye:
+Includes:
 
-* Volumen de negociación
-* Precios ajustados
-* Comparación temporal
-* Visualización interactiva
+* Trading volume
+* Adjusted prices
+* Time comparison
+* Interactive visualization
 
 ---
 
-### Histogramas Microsoft
+## Microsoft Histograms
 
-Se generaron histogramas de precios ajustados de Microsoft para cada año:
+Adjusted price histograms for Microsoft were generated for each year:
 
 * MSFT2015-2016.pdf
 * MSFT2017-2018.pdf
 * MSFT2019-2020.pdf
 
-Estos histogramas permiten analizar:
+These histograms allow analysis of:
 
-* Distribución de precios
-* Volatilidad
-* Tendencias de crecimiento
-* Cambios en dispersión
+* Price distribution
+* Volatility
+* Growth trends
+* Dispersion changes
 
+---
+
+## Methodology
+
+1. Data extraction from Yahoo Finance  
+2. Data cleaning  
+3. Selection of adjusted prices and volumes  
+4. Time series construction  
+5. Interactive visualization  
+6. Histogram generation  
+7. Comparative analysis  
